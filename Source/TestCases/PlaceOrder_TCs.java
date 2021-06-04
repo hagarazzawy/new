@@ -1,5 +1,6 @@
 package TestCases;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -31,7 +32,7 @@ public class PlaceOrder_TCs extends TestBase {
 	BlousesPage blousesPageOBJ;
 	CartSummaryPage cartSummaryPageOBJ;
 	OrdersHistoryPage ordersHistoryPageOBJ;
-	// String Email= RandomStringUtils.randomAlphabetic(8)+"@gmail.com";
+	String Email= RandomStringUtils.randomAlphabetic(8)+"@gmail.com";
 
 	@BeforeClass
 	public void beforeMethod() throws InterruptedException {
@@ -50,7 +51,7 @@ public class PlaceOrder_TCs extends TestBase {
 	@Severity(SeverityLevel.BLOCKER)
 	@Description("Create account with valid data")
 	@Test(priority = 1, dataProvider = "createNewAccount_dataProvider")
-	public void createNewAccount(String Email, String FirstName, String LastName, String Password, String Address,
+	public void createNewAccount( String FirstName, String LastName, String Password, String Address,
 			String City, String PostCode, String Mobile, String State) throws InterruptedException, AWTException {
 
 		logger.info("============== TestCase 1 -  Start ==============");
