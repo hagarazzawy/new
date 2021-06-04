@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="201345" started-at="2021-06-04T18:29:28 EET" finished-at="2021-06-04T18:32:49 EET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="201345" started-at="2021-06-04T18:29:28 EET" finished-at="2021-06-04T18:32:49 EET">
+      <class name="TestCases.CreateAccount_NegativeTCs">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.CreateAccount_NegativeTCs@188715b5]" name="beforeMethod" is-config="true" duration-ms="11014" started-at="2021-06-04T18:31:13 EET" finished-at="2021-06-04T18:31:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createNewAccount_InvalidEmail(java.lang.String, java.lang.String)[pri:1, instance:TestCases.CreateAccount_NegativeTCs@188715b5]" name="createNewAccount_InvalidEmail" duration-ms="5422" started-at="2021-06-04T18:31:24 EET" data-provider="createNewAccount_InvalidEmail_dataProvider" finished-at="2021-06-04T18:31:29 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hagarrr61@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[An account using this email address has already been registered. Please enter a valid password or request a new one.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount_InvalidEmail -->
+        <test-method status="PASS" signature="createNewAccount_EmptyFirstname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:TestCases.CreateAccount_NegativeTCs@188715b5]" name="createNewAccount_EmptyFirstname" duration-ms="12383" started-at="2021-06-04T18:31:30 EET" data-provider="createNewAccount_EmptyFirstname_dataProvider" finished-at="2021-06-04T18:31:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hassan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789634521H.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[california]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[67897]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1155654359]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[firstname is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount_EmptyFirstname -->
+        <test-method status="PASS" signature="createNewAccount_EmptyLastname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:TestCases.CreateAccount_NegativeTCs@188715b5]" name="createNewAccount_EmptyLastname" duration-ms="17069" started-at="2021-06-04T18:31:42 EET" data-provider="createNewAccount_EmptyLastname_dataProvider" finished-at="2021-06-04T18:31:59 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hassan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789634521H.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[california]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[67897]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1155654359]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[lastname is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount_EmptyLastname -->
+        <test-method status="PASS" signature="createNewAccount_EmptyPassword(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:TestCases.CreateAccount_NegativeTCs@188715b5]" name="createNewAccount_EmptyPassword" duration-ms="11044" started-at="2021-06-04T18:32:00 EET" data-provider="createNewAccount_EmptyPassword_dataProvider" finished-at="2021-06-04T18:32:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hassan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[california]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[67897]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1155654359]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[passwd is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount_EmptyPassword -->
+        <test-method status="PASS" signature="createNewAccount_EmptyAddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:TestCases.CreateAccount_NegativeTCs@188715b5]" name="createNewAccount_EmptyAddress" duration-ms="11823" started-at="2021-06-04T18:32:11 EET" data-provider="createNewAccount_EmptyAddress_dataProvider" finished-at="2021-06-04T18:32:23 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hassan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[789634521H.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[67897]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1155654359]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[address1 is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount_EmptyAddress -->
+        <test-method status="PASS" signature="createNewAccount_EmptyMobile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:TestCases.CreateAccount_NegativeTCs@188715b5]" name="createNewAccount_EmptyMobile" duration-ms="10893" started-at="2021-06-04T18:32:23 EET" data-provider="createNewAccount_EmptyMobile_dataProvider" finished-at="2021-06-04T18:32:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hassan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[789634521H.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[california]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67897]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[You must register at least one phone number.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount_EmptyMobile -->
+        <test-method status="PASS" signature="createNewAccount_EmptyPostCode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:TestCases.CreateAccount_NegativeTCs@188715b5]" name="createNewAccount_EmptyPostCode" duration-ms="13067" started-at="2021-06-04T18:32:34 EET" data-provider="createNewAccount_EmptyPostCode_dataProvider" finished-at="2021-06-04T18:32:47 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hassan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[789634521H.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[california]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1155654359]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[The Zip/Postal code you've entered is invalid. It must follow this format: 00000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount_EmptyPostCode -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.CreateAccount_NegativeTCs@188715b5]" name="afterMethod" is-config="true" duration-ms="2034" started-at="2021-06-04T18:32:47 EET" finished-at="2021-06-04T18:32:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.CreateAccount_NegativeTCs -->
+      <class name="TestCases.PlaceOrder_TCs">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.PlaceOrder_TCs@2f7298b]" name="beforeMethod" is-config="true" duration-ms="16065" started-at="2021-06-04T18:29:28 EET" finished-at="2021-06-04T18:29:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createNewAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.PlaceOrder_TCs@2f7298b]" name="createNewAccount" duration-ms="16032" started-at="2021-06-04T18:29:46 EET" data-provider="createNewAccount_dataProvider" finished-at="2021-06-04T18:30:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hagahassan1171@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hagar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hassan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[789634521H.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[california]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[67897]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1155654359]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method status="PASS" signature="PlaceorderWithoutTermsCheck(java.lang.String)[pri:2, instance:TestCases.PlaceOrder_TCs@2f7298b]" name="PlaceorderWithoutTermsCheck" duration-ms="16845" started-at="2021-06-04T18:30:03 EET" data-provider="PlaceorderWithoutTermsCheck_dataProvider" finished-at="2021-06-04T18:30:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[You must agree to the terms of service before continuing.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceorderWithoutTermsCheck -->
+        <test-method status="PASS" signature="BuyBlouse_BankWire(java.lang.String)[pri:3, instance:TestCases.PlaceOrder_TCs@2f7298b]" name="BuyBlouse_BankWire" duration-ms="22227" started-at="2021-06-04T18:30:21 EET" data-provider="BuyBlouse_dataProvider" finished-at="2021-06-04T18:30:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Your order on My Store is complete.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyBlouse_BankWire -->
+        <test-method status="PASS" signature="BuyBlouse_Check(java.lang.String)[pri:4, instance:TestCases.PlaceOrder_TCs@2f7298b]" name="BuyBlouse_Check" duration-ms="27359" started-at="2021-06-04T18:30:43 EET" data-provider="BuyBlouse_dataProvider" finished-at="2021-06-04T18:31:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Your order on My Store is complete.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyBlouse_Check -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.PlaceOrder_TCs@2f7298b]" name="afterMethod" is-config="true" duration-ms="2358" started-at="2021-06-04T18:31:10 EET" finished-at="2021-06-04T18:31:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.PlaceOrder_TCs -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

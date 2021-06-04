@@ -1,0 +1,265 @@
+2021-06-04 18:29:38,178 - Open browser  -INFO - Opening Browser ...
+2021-06-04 18:29:38,195 - Open browser  -INFO - Open URL = http://automationpractice.com/index.php
+2021-06-04 18:29:44,356 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:29:46,488 - Open browser  -INFO - ============== TestCase 1 -  Start ==============
+2021-06-04 18:29:46,888 - Check Element is displayed -INFO - Signin Button is Displayed successfully
+2021-06-04 18:29:48,998 - Check Element is displayed -INFO - click on Signin Button
+2021-06-04 18:29:49,320 - Check Element is displayed -INFO - Email is Displayed successfully
+2021-06-04 18:29:49,693 - Check Element is displayed -INFO - Set Email : hagahassan1171@gmail.com
+2021-06-04 18:29:49,832 - Check Element is displayed -INFO - create Button is Displayed successfully
+2021-06-04 18:29:50,029 - Check Element is displayed -INFO - Click on create Button
+2021-06-04 18:29:52,335 - Check Element is displayed -INFO - FirstName is Displayed successfully
+2021-06-04 18:29:53,018 - Check Element is displayed -INFO - Set FirstName : hagar
+2021-06-04 18:29:53,171 - Check Element is displayed -INFO - LastName is Displayed successfully
+2021-06-04 18:29:53,537 - Check Element is displayed -INFO - Set LastName : hassan
+2021-06-04 18:29:53,666 - Check Element is displayed -INFO - Password is Displayed successfully
+2021-06-04 18:29:54,001 - Check Element is displayed -INFO - Set Password : 789634521H.
+2021-06-04 18:29:54,153 - Check Element is displayed -INFO - Address is Displayed successfully
+2021-06-04 18:29:54,642 - Check Element is displayed -INFO - Set Address : california
+2021-06-04 18:29:54,840 - Check Element is displayed -INFO - City is Displayed successfully
+2021-06-04 18:29:55,017 - Check Element is displayed -INFO - Set City : LA
+2021-06-04 18:29:55,332 - Check Element is displayed -INFO - Press Tab
+2021-06-04 18:29:57,337 - Check Element is displayed -INFO - Scroll down
+2021-06-04 18:29:57,450 - Check Element is displayed -INFO - PostCode is Displayed successfully
+2021-06-04 18:29:57,720 - Check Element is displayed -INFO - Set PostCode : 67897
+2021-06-04 18:29:57,838 - Check Element is displayed -INFO - Mobile is Displayed successfully
+2021-06-04 18:29:58,088 - Check Element is displayed -INFO - Set Mobile : 1155654359
+2021-06-04 18:29:58,225 - Check Element is displayed -INFO - Register Button is Displayed successfully
+2021-06-04 18:30:01,820 - Check Element is displayed -INFO - click on Register Button
+2021-06-04 18:30:02,261 - Open browser  -INFO - ============== TestCase 1 -  End ==============
+2021-06-04 18:30:03,057 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:30:03,771 - Open browser  -INFO - ============== TestCase 2 -  Start ==============
+2021-06-04 18:30:04,285 - Hover Element  -INFO - Hover element Women Sec
+2021-06-04 18:30:04,745 - Check Element is displayed -INFO - BlousesSec is Displayed successfully
+2021-06-04 18:30:07,307 - Check Element is displayed -INFO - click on BlousesSec
+2021-06-04 18:30:07,753 - Hover Element  -INFO - Hover element First Blouse
+2021-06-04 18:30:08,167 - Check Element is displayed -INFO - Add To Cart Button is Displayed successfully
+2021-06-04 18:30:08,377 - Check Element is displayed -INFO - click on Add To Cart Button
+2021-06-04 18:30:11,833 - Check Element is displayed -INFO - Proceed To Checkout Button is Displayed successfully
+2021-06-04 18:30:14,711 - Check Element is displayed -INFO - click on Proceed To Checkout Button
+2021-06-04 18:30:14,951 - Check Element is displayed -INFO - Proceed To Checkout Button is Displayed successfully
+2021-06-04 18:30:17,088 - Check Element is displayed -INFO - click on Proceed To Checkout Button
+2021-06-04 18:30:17,240 - Check Element is displayed -INFO - Address Comment is Displayed successfully
+2021-06-04 18:30:17,578 - Check Element is displayed -INFO - Set Address Comment : 2nd floor
+2021-06-04 18:30:17,760 - Check Element is displayed -INFO - Proceed To Checkout Button 2 is Displayed successfully
+2021-06-04 18:30:19,698 - Check Element is displayed -INFO - click on Proceed To Checkout Button 2
+2021-06-04 18:30:19,867 - Check Element is displayed -INFO - Proceed To Checkout Button 3 is Displayed successfully
+2021-06-04 18:30:20,173 - Check Element is displayed -INFO - click on Proceed To Checkout Button 3
+2021-06-04 18:30:20,570 - Check Element is displayed -INFO - Close Error Message is Displayed successfully
+2021-06-04 18:30:20,605 - Check Element is displayed -INFO - click on Close Error Message
+2021-06-04 18:30:20,606 - Open browser  -INFO - ============== TestCase 2 -  End ==============
+2021-06-04 18:30:20,623 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:30:21,108 - Open browser  -INFO - ============== TestCase 3 -  Start ==============
+2021-06-04 18:30:21,452 - Check Element is displayed -INFO - Cart Menu is Displayed successfully
+2021-06-04 18:30:22,863 - Check Element is displayed -INFO - click on Cart Menu
+2021-06-04 18:30:22,991 - Check Element is displayed -INFO - Proceed To Checkout Button is Displayed successfully
+2021-06-04 18:30:25,800 - Check Element is displayed -INFO - click on Proceed To Checkout Button
+2021-06-04 18:30:26,007 - Check Element is displayed -INFO - Proceed To Checkout Button 2 is Displayed successfully
+2021-06-04 18:30:27,792 - Check Element is displayed -INFO - click on Proceed To Checkout Button 2
+2021-06-04 18:30:28,107 - Check Element is displayed -INFO - Terms  is Displayed successfully
+2021-06-04 18:30:28,424 - Check Element is displayed -INFO - Click on Terms 
+2021-06-04 18:30:30,814 - Check Element is displayed -INFO - Close Terms  is Displayed successfully
+2021-06-04 18:30:30,926 - Check Element is displayed -INFO - Click on Close Terms 
+2021-06-04 18:30:31,026 - Check Element is displayed -INFO - Terms Check Box is Displayed successfully
+2021-06-04 18:30:31,495 - Check Element is displayed -INFO - Click on Terms Check Box
+2021-06-04 18:30:31,657 - Check Element is displayed -INFO - Proceed To Checkout Button 3 is Displayed successfully
+2021-06-04 18:30:34,160 - Check Element is displayed -INFO - click on Proceed To Checkout Button 3
+2021-06-04 18:30:34,267 - Check Element is displayed -INFO - BankWire is Displayed successfully
+2021-06-04 18:30:35,536 - Check Element is displayed -INFO - click on BankWire
+2021-06-04 18:30:35,740 - Check Element is displayed -INFO - Confirm Order Button is Displayed successfully
+2021-06-04 18:30:40,807 - Check Element is displayed -INFO - click on Confirm Order Button
+2021-06-04 18:30:41,250 - Check Element is displayed -INFO - Orders History Button is Displayed successfully
+2021-06-04 18:30:43,253 - Check Element is displayed -INFO - click on Orders History Button
+2021-06-04 18:30:43,318 - Open browser  -INFO - ============== TestCase 3 -  End ==============
+2021-06-04 18:30:43,329 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:30:43,500 - Open browser  -INFO - ============== TestCase 4 -  Start ==============
+2021-06-04 18:30:43,819 - Hover Element  -INFO - Hover element Women Sec
+2021-06-04 18:30:44,286 - Check Element is displayed -INFO - BlousesSec is Displayed successfully
+2021-06-04 18:30:45,818 - Check Element is displayed -INFO - click on BlousesSec
+2021-06-04 18:30:46,520 - Hover Element  -INFO - Hover element First Blouse
+2021-06-04 18:30:47,075 - Check Element is displayed -INFO - Add To Cart Button is Displayed successfully
+2021-06-04 18:30:47,638 - Check Element is displayed -INFO - click on Add To Cart Button
+2021-06-04 18:30:48,884 - Check Element is displayed -INFO - Proceed To Checkout Button is Displayed successfully
+2021-06-04 18:30:51,861 - Check Element is displayed -INFO - click on Proceed To Checkout Button
+2021-06-04 18:30:51,990 - Check Element is displayed -INFO - Proceed To Checkout Button is Displayed successfully
+2021-06-04 18:30:53,369 - Check Element is displayed -INFO - click on Proceed To Checkout Button
+2021-06-04 18:30:53,485 - Check Element is displayed -INFO - Address Comment is Displayed successfully
+2021-06-04 18:30:53,928 - Check Element is displayed -INFO - Set Address Comment : 2nd floor
+2021-06-04 18:30:54,130 - Check Element is displayed -INFO - Proceed To Checkout Button 2 is Displayed successfully
+2021-06-04 18:30:57,907 - Check Element is displayed -INFO - click on Proceed To Checkout Button 2
+2021-06-04 18:30:58,248 - Check Element is displayed -INFO - Terms  is Displayed successfully
+2021-06-04 18:30:58,578 - Check Element is displayed -INFO - Click on Terms 
+2021-06-04 18:31:00,988 - Check Element is displayed -INFO - Close Terms  is Displayed successfully
+2021-06-04 18:31:01,206 - Check Element is displayed -INFO - Click on Close Terms 
+2021-06-04 18:31:01,406 - Check Element is displayed -INFO - Terms Check Box is Displayed successfully
+2021-06-04 18:31:01,868 - Check Element is displayed -INFO - Click on Terms Check Box
+2021-06-04 18:31:02,056 - Check Element is displayed -INFO - Proceed To Checkout Button 3 is Displayed successfully
+2021-06-04 18:31:04,101 - Check Element is displayed -INFO - click on Proceed To Checkout Button 3
+2021-06-04 18:31:04,198 - Check Element is displayed -INFO - Check is Displayed successfully
+2021-06-04 18:31:05,339 - Check Element is displayed -INFO - click on Check
+2021-06-04 18:31:05,489 - Check Element is displayed -INFO - Confirm Order Button is Displayed successfully
+2021-06-04 18:31:08,416 - Check Element is displayed -INFO - click on Confirm Order Button
+2021-06-04 18:31:09,127 - Check Element is displayed -INFO - Orders History Button is Displayed successfully
+2021-06-04 18:31:10,786 - Check Element is displayed -INFO - click on Orders History Button
+2021-06-04 18:31:10,838 - Open browser  -INFO - ============== TestCase 4 -  End ==============
+2021-06-04 18:31:13,213 - Close browser  -INFO - Close Browser ...
+2021-06-04 18:31:17,121 - Open browser  -INFO - Opening Browser ...
+2021-06-04 18:31:17,122 - Open browser  -INFO - Open URL = http://automationpractice.com/index.php
+2021-06-04 18:31:24,230 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:31:24,564 - Open browser  -INFO - ============== TestCase 1 -  Start ==============
+2021-06-04 18:31:25,327 - Check Element is displayed -INFO - Signin Button is Displayed successfully
+2021-06-04 18:31:27,527 - Check Element is displayed -INFO - click on Signin Button
+2021-06-04 18:31:27,774 - Check Element is displayed -INFO - Email is Displayed successfully
+2021-06-04 18:31:28,298 - Check Element is displayed -INFO - Set Email : hagarrr61@gmail.com
+2021-06-04 18:31:28,436 - Check Element is displayed -INFO - create Button is Displayed successfully
+2021-06-04 18:31:29,020 - Check Element is displayed -INFO - Click on create Button
+2021-06-04 18:31:29,962 - Open browser  -INFO - ============== TestCase 1 -  End ==============
+2021-06-04 18:31:29,972 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:31:30,234 - Open browser  -INFO - ============== TestCase 2 -  Start ==============
+2021-06-04 18:31:30,405 - Check Element is displayed -INFO - Email is Displayed successfully
+2021-06-04 18:31:31,087 - Check Element is displayed -INFO - Set Email : RUeaiEyV@gmail.com
+2021-06-04 18:31:31,231 - Check Element is displayed -INFO - create Button is Displayed successfully
+2021-06-04 18:31:31,422 - Check Element is displayed -INFO - Click on create Button
+2021-06-04 18:31:34,084 - Check Element is displayed -INFO - LastName is Displayed successfully
+2021-06-04 18:31:34,398 - Check Element is displayed -INFO - Set LastName : hassan
+2021-06-04 18:31:34,655 - Check Element is displayed -INFO - Password is Displayed successfully
+2021-06-04 18:31:35,045 - Check Element is displayed -INFO - Set Password : 789634521H.
+2021-06-04 18:31:35,143 - Check Element is displayed -INFO - Address is Displayed successfully
+2021-06-04 18:31:35,908 - Check Element is displayed -INFO - Set Address : california
+2021-06-04 18:31:36,154 - Check Element is displayed -INFO - City is Displayed successfully
+2021-06-04 18:31:36,450 - Check Element is displayed -INFO - Set City : LA
+2021-06-04 18:31:36,504 - Check Element is displayed -INFO - Press Tab
+2021-06-04 18:31:38,526 - Check Element is displayed -INFO - Scroll down
+2021-06-04 18:31:38,657 - Check Element is displayed -INFO - PostCode is Displayed successfully
+2021-06-04 18:31:38,977 - Check Element is displayed -INFO - Set PostCode : 67897
+2021-06-04 18:31:39,109 - Check Element is displayed -INFO - Mobile is Displayed successfully
+2021-06-04 18:31:39,445 - Check Element is displayed -INFO - Set Mobile : 1155654359
+2021-06-04 18:31:39,690 - Check Element is displayed -INFO - Register Button is Displayed successfully
+2021-06-04 18:31:42,290 - Check Element is displayed -INFO - click on Register Button
+2021-06-04 18:31:42,584 - Open browser  -INFO - ============== TestCase 2 -  End ==============
+2021-06-04 18:31:42,596 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:31:42,729 - Open browser  -INFO - ============== TestCase 3 -  Start ==============
+2021-06-04 18:31:42,958 - Check Element is displayed -INFO - Signin Button is Displayed successfully
+2021-06-04 18:31:47,013 - Check Element is displayed -INFO - click on Signin Button
+2021-06-04 18:31:47,178 - Check Element is displayed -INFO - Email is Displayed successfully
+2021-06-04 18:31:47,542 - Check Element is displayed -INFO - Set Email : RUeaiEyV@gmail.com
+2021-06-04 18:31:47,664 - Check Element is displayed -INFO - create Button is Displayed successfully
+2021-06-04 18:31:48,158 - Check Element is displayed -INFO - Click on create Button
+2021-06-04 18:31:50,275 - Check Element is displayed -INFO - FirstName is Displayed successfully
+2021-06-04 18:31:51,231 - Check Element is displayed -INFO - Set FirstName : hassan
+2021-06-04 18:31:51,727 - Check Element is displayed -INFO - Password is Displayed successfully
+2021-06-04 18:31:52,625 - Check Element is displayed -INFO - Set Password : 789634521H.
+2021-06-04 18:31:53,083 - Check Element is displayed -INFO - Address is Displayed successfully
+2021-06-04 18:31:53,577 - Check Element is displayed -INFO - Set Address : california
+2021-06-04 18:31:53,786 - Check Element is displayed -INFO - City is Displayed successfully
+2021-06-04 18:31:54,219 - Check Element is displayed -INFO - Set City : LA
+2021-06-04 18:31:54,252 - Check Element is displayed -INFO - Press Tab
+2021-06-04 18:31:56,274 - Check Element is displayed -INFO - Scroll down
+2021-06-04 18:31:56,366 - Check Element is displayed -INFO - PostCode is Displayed successfully
+2021-06-04 18:31:56,890 - Check Element is displayed -INFO - Set PostCode : 67897
+2021-06-04 18:31:57,014 - Check Element is displayed -INFO - Mobile is Displayed successfully
+2021-06-04 18:31:57,420 - Check Element is displayed -INFO - Set Mobile : 1155654359
+2021-06-04 18:31:57,559 - Check Element is displayed -INFO - Register Button is Displayed successfully
+2021-06-04 18:31:59,605 - Check Element is displayed -INFO - click on Register Button
+2021-06-04 18:31:59,772 - Open browser  -INFO - ============== TestCase 3 -  End ==============
+2021-06-04 18:31:59,785 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:32:00,044 - Open browser  -INFO - ============== TestCase 4 -  Start ==============
+2021-06-04 18:32:00,259 - Check Element is displayed -INFO - Signin Button is Displayed successfully
+2021-06-04 18:32:02,022 - Check Element is displayed -INFO - click on Signin Button
+2021-06-04 18:32:02,143 - Check Element is displayed -INFO - Email is Displayed successfully
+2021-06-04 18:32:02,447 - Check Element is displayed -INFO - Set Email : RUeaiEyV@gmail.com
+2021-06-04 18:32:02,535 - Check Element is displayed -INFO - create Button is Displayed successfully
+2021-06-04 18:32:02,815 - Check Element is displayed -INFO - Click on create Button
+2021-06-04 18:32:04,470 - Check Element is displayed -INFO - FirstName is Displayed successfully
+2021-06-04 18:32:05,002 - Check Element is displayed -INFO - Set FirstName : hassan
+2021-06-04 18:32:05,168 - Check Element is displayed -INFO - LastName is Displayed successfully
+2021-06-04 18:32:05,449 - Check Element is displayed -INFO - Set LastName : Ahmed
+2021-06-04 18:32:05,574 - Check Element is displayed -INFO - Address is Displayed successfully
+2021-06-04 18:32:05,825 - Check Element is displayed -INFO - Set Address : california
+2021-06-04 18:32:05,964 - Check Element is displayed -INFO - City is Displayed successfully
+2021-06-04 18:32:06,198 - Check Element is displayed -INFO - Set City : LA
+2021-06-04 18:32:06,202 - Check Element is displayed -INFO - Press Tab
+2021-06-04 18:32:08,206 - Check Element is displayed -INFO - Scroll down
+2021-06-04 18:32:08,286 - Check Element is displayed -INFO - PostCode is Displayed successfully
+2021-06-04 18:32:08,505 - Check Element is displayed -INFO - Set PostCode : 67897
+2021-06-04 18:32:08,597 - Check Element is displayed -INFO - Mobile is Displayed successfully
+2021-06-04 18:32:08,815 - Check Element is displayed -INFO - Set Mobile : 1155654359
+2021-06-04 18:32:08,920 - Check Element is displayed -INFO - Register Button is Displayed successfully
+2021-06-04 18:32:10,903 - Check Element is displayed -INFO - click on Register Button
+2021-06-04 18:32:11,067 - Open browser  -INFO - ============== TestCase 4 -  End ==============
+2021-06-04 18:32:11,081 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:32:11,252 - Open browser  -INFO - ============== TestCase 5 -  Start ==============
+2021-06-04 18:32:11,350 - Check Element is displayed -INFO - Signin Button is Displayed successfully
+2021-06-04 18:32:13,347 - Check Element is displayed -INFO - click on Signin Button
+2021-06-04 18:32:13,492 - Check Element is displayed -INFO - Email is Displayed successfully
+2021-06-04 18:32:13,809 - Check Element is displayed -INFO - Set Email : RUeaiEyV@gmail.com
+2021-06-04 18:32:13,907 - Check Element is displayed -INFO - create Button is Displayed successfully
+2021-06-04 18:32:14,195 - Check Element is displayed -INFO - Click on create Button
+2021-06-04 18:32:16,461 - Check Element is displayed -INFO - FirstName is Displayed successfully
+2021-06-04 18:32:16,914 - Check Element is displayed -INFO - Set FirstName : hassan
+2021-06-04 18:32:17,064 - Check Element is displayed -INFO - LastName is Displayed successfully
+2021-06-04 18:32:17,421 - Check Element is displayed -INFO - Set LastName : Ahmed
+2021-06-04 18:32:17,560 - Check Element is displayed -INFO - Password is Displayed successfully
+2021-06-04 18:32:17,955 - Check Element is displayed -INFO - Set Password : 789634521H.
+2021-06-04 18:32:18,049 - Check Element is displayed -INFO - City is Displayed successfully
+2021-06-04 18:32:18,310 - Check Element is displayed -INFO - Set City : LA
+2021-06-04 18:32:18,320 - Check Element is displayed -INFO - Press Tab
+2021-06-04 18:32:20,326 - Check Element is displayed -INFO - Scroll down
+2021-06-04 18:32:20,403 - Check Element is displayed -INFO - PostCode is Displayed successfully
+2021-06-04 18:32:20,607 - Check Element is displayed -INFO - Set PostCode : 67897
+2021-06-04 18:32:20,696 - Check Element is displayed -INFO - Mobile is Displayed successfully
+2021-06-04 18:32:20,969 - Check Element is displayed -INFO - Set Mobile : 1155654359
+2021-06-04 18:32:21,054 - Check Element is displayed -INFO - Register Button is Displayed successfully
+2021-06-04 18:32:22,940 - Check Element is displayed -INFO - click on Register Button
+2021-06-04 18:32:23,058 - Open browser  -INFO - ============== TestCase 5 -  End ==============
+2021-06-04 18:32:23,072 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:32:23,277 - Open browser  -INFO - ============== TestCase 6 -  Start ==============
+2021-06-04 18:32:23,400 - Check Element is displayed -INFO - Signin Button is Displayed successfully
+2021-06-04 18:32:24,966 - Check Element is displayed -INFO - click on Signin Button
+2021-06-04 18:32:25,049 - Check Element is displayed -INFO - Email is Displayed successfully
+2021-06-04 18:32:25,321 - Check Element is displayed -INFO - Set Email : RUeaiEyV@gmail.com
+2021-06-04 18:32:25,401 - Check Element is displayed -INFO - create Button is Displayed successfully
+2021-06-04 18:32:25,620 - Check Element is displayed -INFO - Click on create Button
+2021-06-04 18:32:27,385 - Check Element is displayed -INFO - FirstName is Displayed successfully
+2021-06-04 18:32:27,671 - Check Element is displayed -INFO - Set FirstName : hagar
+2021-06-04 18:32:27,881 - Check Element is displayed -INFO - LastName is Displayed successfully
+2021-06-04 18:32:28,107 - Check Element is displayed -INFO - Set LastName : hassan
+2021-06-04 18:32:28,229 - Check Element is displayed -INFO - Password is Displayed successfully
+2021-06-04 18:32:28,556 - Check Element is displayed -INFO - Set Password : 789634521H.
+2021-06-04 18:32:28,672 - Check Element is displayed -INFO - Address is Displayed successfully
+2021-06-04 18:32:28,967 - Check Element is displayed -INFO - Set Address : california
+2021-06-04 18:32:29,081 - Check Element is displayed -INFO - City is Displayed successfully
+2021-06-04 18:32:29,427 - Check Element is displayed -INFO - Set City : LA
+2021-06-04 18:32:29,432 - Check Element is displayed -INFO - Press Tab
+2021-06-04 18:32:31,437 - Check Element is displayed -INFO - Scroll down
+2021-06-04 18:32:31,509 - Check Element is displayed -INFO - PostCode is Displayed successfully
+2021-06-04 18:32:31,747 - Check Element is displayed -INFO - Set PostCode : 67897
+2021-06-04 18:32:31,861 - Check Element is displayed -INFO - Register Button is Displayed successfully
+2021-06-04 18:32:34,026 - Check Element is displayed -INFO - click on Register Button
+2021-06-04 18:32:34,155 - Open browser  -INFO - ============== TestCase 6 -  End ==============
+2021-06-04 18:32:34,166 - Open browser  -INFO - Open the Excel file
+2021-06-04 18:32:34,400 - Open browser  -INFO - ============== TestCase 7 -  Start ==============
+2021-06-04 18:32:34,758 - Check Element is displayed -INFO - Signin Button is Displayed successfully
+2021-06-04 18:32:38,112 - Check Element is displayed -INFO - click on Signin Button
+2021-06-04 18:32:38,217 - Check Element is displayed -INFO - Email is Displayed successfully
+2021-06-04 18:32:38,526 - Check Element is displayed -INFO - Set Email : RUeaiEyV@gmail.com
+2021-06-04 18:32:38,600 - Check Element is displayed -INFO - create Button is Displayed successfully
+2021-06-04 18:32:38,835 - Check Element is displayed -INFO - Click on create Button
+2021-06-04 18:32:40,494 - Check Element is displayed -INFO - FirstName is Displayed successfully
+2021-06-04 18:32:40,962 - Check Element is displayed -INFO - Set FirstName : hagar
+2021-06-04 18:32:41,108 - Check Element is displayed -INFO - LastName is Displayed successfully
+2021-06-04 18:32:41,637 - Check Element is displayed -INFO - Set LastName : hassan
+2021-06-04 18:32:41,799 - Check Element is displayed -INFO - Password is Displayed successfully
+2021-06-04 18:32:42,157 - Check Element is displayed -INFO - Set Password : 789634521H.
+2021-06-04 18:32:42,255 - Check Element is displayed -INFO - Address is Displayed successfully
+2021-06-04 18:32:42,558 - Check Element is displayed -INFO - Set Address : california
+2021-06-04 18:32:42,658 - Check Element is displayed -INFO - City is Displayed successfully
+2021-06-04 18:32:42,923 - Check Element is displayed -INFO - Set City : LA
+2021-06-04 18:32:42,931 - Check Element is displayed -INFO - Press Tab
+2021-06-04 18:32:44,939 - Check Element is displayed -INFO - Scroll down
+2021-06-04 18:32:45,021 - Check Element is displayed -INFO - Mobile is Displayed successfully
+2021-06-04 18:32:45,437 - Check Element is displayed -INFO - Set Mobile : 1155654359
+2021-06-04 18:32:45,595 - Check Element is displayed -INFO - Register Button is Displayed successfully
+2021-06-04 18:32:47,335 - Check Element is displayed -INFO - click on Register Button
+2021-06-04 18:32:47,454 - Open browser  -INFO - ============== TestCase 7 -  End ==============
+2021-06-04 18:32:49,499 - Close browser  -INFO - Close Browser ...
