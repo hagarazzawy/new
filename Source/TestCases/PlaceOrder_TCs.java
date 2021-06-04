@@ -73,30 +73,6 @@ public class PlaceOrder_TCs extends TestBase {
 		return (testObjArray);
 	}
 
-	@Description("Place an order Without Terms Check")
-	@Test(priority = 2 , dataProvider = "PlaceorderWithoutTermsCheck_dataProvider")
-	public void PlaceorderWithoutTermsCheck(String Error) throws AWTException, InterruptedException {
-		
-		logger.info("============== TestCase 2 -  Start ==============");
-		myAccountPageOBJ.HoverOverWomenSec();
-		myAccountPageOBJ.clickonBlouses();
-		Assert.assertEquals(myAccountPageOBJ.CheckCategoryName(), "BLOUSES ");
-
-		blousesPageOBJ.HoverOverFirstBlouse();
-		blousesPageOBJ.ClickOnAddToCartButton();
-		Assert.assertTrue(blousesPageOBJ.CheckProceedToCheckoutButton());
-
-		blousesPageOBJ.ClickOnProceedToCheckoutButton();
-		cartSummaryPageOBJ.ClickOnProceedToCheckoutButton();
-		cartSummaryPageOBJ.setAddressComment("2nd floor");
-		cartSummaryPageOBJ.ClickOnProceedToCheckoutButton2();
-		cartSummaryPageOBJ.ClickOnProceedToCheckoutButton3();
-		Assert.assertEquals(cartSummaryPageOBJ.getErrorMessage(), Error);
-		cartSummaryPageOBJ.ClickOnCloseErrorButton();
-
-		logger.info("============== TestCase 2 -  End ==============");
-
-	}
 	
 	@DataProvider
 	public Object[][] PlaceorderWithoutTermsCheck_dataProvider() throws Exception {
@@ -105,41 +81,12 @@ public class PlaceOrder_TCs extends TestBase {
 
 		return (testObjArray);
 	}
-	
-	@Description("Place an order successfully and payment by bank wire")
-	@Test(priority = 3 , dataProvider = "BuyBlouse_dataProvider")
-	public void BuyBlouse_BankWire(String SuccessMessage) throws AWTException, InterruptedException {
-		
-		logger.info("============== TestCase 3 -  Start ==============");
-		cartSummaryPageOBJ.ClickOnCartMenu();
-		cartSummaryPageOBJ.ClickOnProceedToCheckoutButton();
-		cartSummaryPageOBJ.ClickOnProceedToCheckoutButton2();
-		cartSummaryPageOBJ.ReadTerms();
-		cartSummaryPageOBJ.ClickOnTermsCheckBox();
-		cartSummaryPageOBJ.ClickOnProceedToCheckoutButton3();
-		cartSummaryPageOBJ.ClickOnBankWire();
-		cartSummaryPageOBJ.ClickOnConfirmOrderButton();
-		Assert.assertEquals(cartSummaryPageOBJ.getSuccessOrderMessage_Bank(), SuccessMessage);
-		
-		cartSummaryPageOBJ.ClickOnOrdersHistoryButton();
-		Assert.assertFalse(ordersHistoryPageOBJ.CheckErrorMessage());
-		logger.info("============== TestCase 3 -  End ==============");
-
-	}
-	
-	 @DataProvider
-		public Object[][] BuyBlouse_dataProvider() throws Exception {
-
-			Object[][] testObjArray = TestData.fetchData("BuyABlouse");
-
-			return (testObjArray);
-		}
 
 		@Description("Place an order successfully and payment by Check")
-		@Test(priority = 4 , dataProvider = "BuyBlouse_dataProvider")
+		@Test(priority = 2 , dataProvider = "BuyBlouse_dataProvider")
 		public void BuyBlouse_Check(String SuccessMessage) throws AWTException, InterruptedException {
 			
-			logger.info("============== TestCase 4 -  Start ==============");
+			logger.info("============== TestCase 2 -  Start ==============");
 			myAccountPageOBJ.HoverOverWomenSec();
 			myAccountPageOBJ.clickonBlouses();
 			Assert.assertEquals(myAccountPageOBJ.CheckCategoryName(), "BLOUSES ");
@@ -162,6 +109,71 @@ public class PlaceOrder_TCs extends TestBase {
 			cartSummaryPageOBJ.ClickOnOrdersHistoryButton();
 			Assert.assertFalse(ordersHistoryPageOBJ.CheckErrorMessage());
 			
+			logger.info("============== TestCase 2 -  End ==============");
+
+		}
+		
+
+		
+		 @DataProvider
+			public Object[][] BuyBlouse_dataProvider() throws Exception {
+
+				Object[][] testObjArray = TestData.fetchData("BuyABlouse");
+
+				return (testObjArray);
+			}
+		
+		@Description("Place an order successfully and payment by bank wire")
+		@Test(priority = 3 , dataProvider = "BuyBlouse_dataProvider")
+		public void BuyBlouse_BankWire(String SuccessMessage) throws AWTException, InterruptedException {
+			
+			logger.info("============== TestCase 3 -  Start ==============");
+			myAccountPageOBJ.HoverOverWomenSec();
+			myAccountPageOBJ.clickonBlouses();
+			Assert.assertEquals(myAccountPageOBJ.CheckCategoryName(), "BLOUSES ");
+
+			blousesPageOBJ.HoverOverFirstBlouse();
+			blousesPageOBJ.ClickOnAddToCartButton();
+			Assert.assertTrue(blousesPageOBJ.CheckProceedToCheckoutButton());
+
+			blousesPageOBJ.ClickOnProceedToCheckoutButton();
+			cartSummaryPageOBJ.ClickOnProceedToCheckoutButton();
+			cartSummaryPageOBJ.setAddressComment("2nd floor");
+			cartSummaryPageOBJ.ClickOnProceedToCheckoutButton2();
+			cartSummaryPageOBJ.ReadTerms();
+			cartSummaryPageOBJ.ClickOnTermsCheckBox();
+			cartSummaryPageOBJ.ClickOnProceedToCheckoutButton3();
+			cartSummaryPageOBJ.ClickOnBankWire();
+			cartSummaryPageOBJ.ClickOnConfirmOrderButton();
+			Assert.assertEquals(cartSummaryPageOBJ.getSuccessOrderMessage_Bank(), SuccessMessage);
+			
+			cartSummaryPageOBJ.ClickOnOrdersHistoryButton();
+			Assert.assertFalse(ordersHistoryPageOBJ.CheckErrorMessage());
+			logger.info("============== TestCase 3 -  End ==============");
+
+		}
+
+		@Description("Place an order Without Terms Check")
+		@Test(priority = 4 , dataProvider = "PlaceorderWithoutTermsCheck_dataProvider")
+		public void PlaceorderWithoutTermsCheck(String Error) throws AWTException, InterruptedException {
+			
+			logger.info("============== TestCase 4 -  Start ==============");
+			myAccountPageOBJ.HoverOverWomenSec();
+			myAccountPageOBJ.clickonBlouses();
+			Assert.assertEquals(myAccountPageOBJ.CheckCategoryName(), "BLOUSES ");
+
+			blousesPageOBJ.HoverOverFirstBlouse();
+			blousesPageOBJ.ClickOnAddToCartButton();
+			Assert.assertTrue(blousesPageOBJ.CheckProceedToCheckoutButton());
+
+			blousesPageOBJ.ClickOnProceedToCheckoutButton();
+			cartSummaryPageOBJ.ClickOnProceedToCheckoutButton();
+			cartSummaryPageOBJ.setAddressComment("2nd floor");
+			cartSummaryPageOBJ.ClickOnProceedToCheckoutButton2();
+			cartSummaryPageOBJ.ClickOnProceedToCheckoutButton3();
+			Assert.assertEquals(cartSummaryPageOBJ.getErrorMessage(), Error);
+			cartSummaryPageOBJ.ClickOnCloseErrorButton();
+
 			logger.info("============== TestCase 4 -  End ==============");
 
 		}
